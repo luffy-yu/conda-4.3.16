@@ -102,9 +102,9 @@ setup(
         'sdist': conda._vendor.auxlib.packaging.SDistCommand,
     },
     entry_points={
-        'console_scripts': [
-            'conda=conda.cli.pip_warning:main',
-        ],
+        # 'console_scripts': [
+        #     'conda=conda.cli.pip_warning:main',
+        # ],
     },
     install_requires=install_requires,
     zip_safe=False,
