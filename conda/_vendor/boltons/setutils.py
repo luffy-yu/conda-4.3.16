@@ -14,7 +14,7 @@ from __future__ import print_function
 
 from bisect import bisect_left
 from itertools import chain, islice
-from collections import MutableSet
+from ..auxlib._vendor.collections_patch import MutableSet
 import operator
 
 try:

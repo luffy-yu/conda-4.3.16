@@ -74,7 +74,7 @@ if PY3:  # pragma: py2 no cover
     viewvalues = methodcaller("values")
     viewitems = methodcaller("items")
 
-    from collections import Iterable
+    from .._vendor.auxlib._vendor.collections_patch import Iterable
     def isiterable(obj):
         return not isinstance(obj, string_types) and isinstance(obj, Iterable)
 

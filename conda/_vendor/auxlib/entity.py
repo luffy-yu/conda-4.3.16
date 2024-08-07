@@ -237,7 +237,7 @@ Chapter X: The del and null Weeds
 """
 from __future__ import absolute_import, division, print_function
 
-from collections import Iterable, Sequence, Mapping
+from ._vendor.collections_patch import Iterable, Sequence, Mapping
 from copy import deepcopy
 from datetime import datetime
 from enum import Enum

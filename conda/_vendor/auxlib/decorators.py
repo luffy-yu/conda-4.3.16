@@ -1,5 +1,5 @@
 from __future__ import absolute_import, division, print_function
-from collections import Hashable
+from ._vendor.collections_patch import Hashable
 from types import GeneratorType
 
 from .compat import wraps

@@ -53,6 +53,7 @@ conda/_vendor/auxlib/packaging.py
 conda/_vendor/auxlib/path.py
 conda/_vendor/auxlib/type_coercion.py
 conda/_vendor/auxlib/_vendor/__init__.py
+conda/_vendor/auxlib/_vendor/collections_patch.py
 conda/_vendor/auxlib/_vendor/five.py
 conda/_vendor/auxlib/_vendor/six.py
 conda/_vendor/auxlib/_vendor/boltons/__init__.py

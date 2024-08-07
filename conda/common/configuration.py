@@ -17,7 +17,7 @@ Limitations:
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 from abc import ABCMeta, abstractmethod
-from collections import Mapping, defaultdict
+from .._vendor.auxlib._vendor.collections_patch import Mapping, defaultdict
 from glob import glob
 from itertools import chain
 from logging import getLogger

@@ -28,4 +28,7 @@ def isiterable(obj):
                 and not isinstance(obj, string_types)
                 and type(obj) is not type)
     else:
-        return not isinstance(obj, string_types) and isinstance(obj, collections.Iterable)
+        try:
+            return not isinstance(obj, string_types) and isinstance(obj, collections.Iterable)
+        except:
+            return not isinstance(obj, string_types) and isinstance(obj, collections.abc.Iterable)
