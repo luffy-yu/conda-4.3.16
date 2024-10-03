@@ -30,9 +30,7 @@ conda/version.py
 conda.egg-info/PKG-INFO
 conda.egg-info/SOURCES.txt
 conda.egg-info/dependency_links.txt
-conda.egg-info/entry_points.txt
 conda.egg-info/not-zip-safe
-conda.egg-info/pbr.json
 conda.egg-info/requires.txt
 conda.egg-info/top_level.txt
 conda/_vendor/__init__.py

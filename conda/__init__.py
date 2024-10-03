@@ -18,7 +18,7 @@ __all__ = (
 )
 
 __name__ = "conda"
-__version__ = "4.3.16"
+__version__ = "4.3.16.2"
 __author__ = "Continuum Analytics, Inc."
 __email__ = "conda@continuum.io"
 __license__ = "BSD"

@@ -68,8 +68,9 @@ if sys.version_info < (3, 4):
     install_requires.append('enum34')
 
 
-if sys.platform == "win32":
-    install_requires.append('menuinst')
+# Remove `menuinst` as it may cause installation failure and it doesn't help on windows.
+# if sys.platform == "win32":
+#     install_requires.append('menuinst')
 
 
 setup(
